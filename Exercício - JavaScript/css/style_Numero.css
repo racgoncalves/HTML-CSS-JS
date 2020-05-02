@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+form{
+  margin: 30px 30px;
+  word-spacing: 4px;
+}
+
+#numero{
+  width: 40px;
+  background: rgba(170, 158, 203, 0.66);
+}
+
+#botao:hover{
+  background: rgb(40, 195, 125);
+}
