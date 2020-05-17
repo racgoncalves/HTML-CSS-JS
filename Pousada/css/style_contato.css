@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+  font-family: 'Lato', sans-serif;
+  background: rgba(146, 240, 170, 0.3);
+  color: rgb(55, 2, 15);
+}
+
+.links{
+  text-align: left;
+  word-spacing: 10px;
+}
+
+.links a{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(21, 19, 227);
+}
+
+.links a:hover{
+  color: rgba(222, 65, 65, 0.85);
+}
+
+.tudo{
+  margin: auto;
+  display: flex;
+  width: 800px;
+  height: auto;
+}
+
+.formulario h2{
+  text-align: right;
+}
+
+.campos{
+  text-align: right;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.campos label{
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.campos input{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  width: 220px;
+}
+
+.campos textarea{
+  font-family: 'Lato', sans-serif;
+  resize: none;
+  width: 302px;
+  height: 150px;
+  font-size: 16px;
+}
+
+#botao{
+  width: 80px;
+  height: 30px;
+}
+
+.container_contato{
+  margin: 0px 100px;
+}
+
+.container_contato h2{
+  text-align: center
+}
+
+.container_contato p{
+  font-size: 18px;
+}
+
+.contato{
+  display: flex;
+}
+
+.formas{
+  text-align: right;
+  font-weight: bold;
+}
+
+.dados{
+  margin-left: 10px;
+  text-align: justify;
+  word-spacing: 2px;
+}

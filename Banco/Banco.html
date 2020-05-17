@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Conta de Banco</title>
+    <link rel="stylesheet" href="./css/style_Banco.css">
+  </head>
+  <body>
+
+    <h1>Digo's Bank</h1>
+
+    <br><br>
+
+    <div class="formularios">
+
+    <form>
+
+      <h2>Cadastro</h2>
+
+      <!-- usuário -->
+      <label for="usuario">Digite um usuário para sua conta:</label>
+      <input type="text" id="usuario">
+      <p id="resultadoUsuario"></p>  <br>
+
+      <!-- senha -->
+      <label for="senha">Digite uma senha de 4 dígitos:</label>
+      <input type="password" id="senha">
+      <p id="resultadoSenha"></p>  <br>
+
+      <!-- tipo -->
+      <label for="tipo">Digite o tipo da sua conta (estudante, normal ou aposentado):</label>
+      <input type="text" id="tipo">
+      <p id="resultadoTipo"></p>
+
+      <!-- botão / resultado -->
+      <input type="button" id="botaoCadastro" value="enviar"> <br>
+      <p id="resultadoCadastro"></p>
+
+
+    </form>
+
+    <br><br>
+
+    <form>
+
+      <h2>Login</h2>
+
+      <!-- usuário -->
+      <label for="usuarioLogin">Digite o usuário da sua conta: </label>
+      <input type="text" id="usuarioLogin"> <br> <br>
+
+      <!-- senha -->
+      <label for="senhaLogin">Digite a sua senha: </label>
+      <input type="password" id="senhaLogin"> <br> <br>
+
+      <!-- botão / resultado -->
+      <input type="button" id="botaoLogin" value="enviar"> <br>
+      <p id="resultadoLogin"></p>  <br>
+
+    </form>
+
+    <br><br>
+
+    <form>
+
+      <h2>Operações</h2>
+
+      <!-- Depositar -->
+      <label for="deposito">Digite o valor a ser depositado: </label>
+      <input type="number" id="deposito">
+      <input type="button" id="botaoDeposito" value="enviar"> <br>
+      <p id="resultadoDeposito"></p>  <br>
+
+      <!-- Sacar -->
+      <label for="saque">Digite o valor a ser retirado: </label>
+      <input type="number" id="saque">
+      <input type="button" id="botaoSaque" value="enviar"> <br>
+      <p id="resultadoSaque"></p>  <br>
+
+      <!-- Saldo -->
+      <label for="botaoSaldo"></label>
+      <input type="button" id="botaoSaldo" value="Clique aqui para visualizar o seu saldo"> <br>
+      <p id="resultadoSaldo"></p>  <br>
+
+      <!-- Extrato -->
+      <label for="botaoExtrato"></label>
+      <input type="button" id="botaoExtrato" value="Clique aqui para visualizar o seu extrato"> <br>
+      <p id="resultadoExtrato"></p>  <br>
+
+    </form>
+
+    </div>
+
+  <script src="./js/Banco.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+.labels{
+  display: block;
+  float: left;
+  padding: 20px;
+  line-height: 40px;
+  margin-left: 30px;
+}
+
+.inputs{
+  display: block;
+  padding: 20px;
+  line-height: 40px;
+}
+
+.tabela{
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.tabela thead{
+  background: rgba(247, 210, 75, 0.47);
+}
+
+.tabela th, .tabela tr, .tabela td{
+  padding: 10px;
+  border: 1px solid rgba(53, 180, 203, 0.73);
+  box-sizing: border-box;
+}
+
+.tabela tbody{
+  text-align: center;
+}
+
+.tabela tbody tr:nth-child(even){
+  background: rgba(0, 4, 97, 0.03);
+}
