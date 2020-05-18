@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+/* ////////////////////////////////////HEADER//////////////////////////////////// */
+.cabecalho{
+  width: auto;
+  min-height: 102vh;
+  background-image: url(../img/Header_v2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 4%;
+}
+
+.cabecalhoOpcoes{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cabecalhoOpcoesImg{
+  margin-left: 6%;
+  margin-top: 2.5%;
+}
+
+#xcave{
+  width: 95px;
+  height: 95px;
+  margin-right: 18px;
+}
+
+#logo{
+  width: 100px;
+  height: 100px;
+}
+
+.cabecalhoOpcoesMenu{
+  margin-right: 6%;
+  margin-top: 2.5%;
+  display: flex;
+  font-size: 22px;
+  color: #707070;
+  font-weight: bold;
+}
+
+.cabecalhoOpcoesMenu p{
+  word-spacing: 12px;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  height: 31px;
+}
+
+a:hover{
+  border-bottom: 3px solid white;
+}
+
+.titulo{
+  color: #03a479;
+  font-weight: bold;
+  display: flex;
+  margin-left: 6%;
+  margin-top: 10%;
+}
+
+.titulo h1{
+  font-size: 80px;
+}
+
+/* ////////////////////////////////////IMAGEM ESQUERDA//////////////////////////////////// */
+.imagemEsquerdaContainer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagemEsquerdaContainerImagem{
+  margin-right: 40px;
+}
+
+.imagemEsquerdaContainerTexto{
+  width: 40%;
+  color: #707070;
+}
+
+.imagemEsquerdaContainerTexto h1{
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+
+.imagemEsquerdaContainerTexto p{
+  font-size: 20px;
+}
+
+/* ////////////////////////////////////IMAGEM DIREITA//////////////////////////////////// */
+.imagemDireitaContainer{
+  width: 100%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagemDireitaContainerImagem{
+  margin-left: 40px;
+}
+
+.imagemDireitaContainerTexto{
+  width: 40%;
+  color: #707070;
+  text-align: right;
+  justify-content: center;
+}
+
+.imagemDireitaContainerTexto h1{
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+
+.imagemDireitaContainerTexto p{
+  font-size: 20px;
+}
+
+/* ////////////////////////////////////TIMELINE//////////////////////////////////// */
+.timelineContainer{
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 5% auto;
+}
+
+.timelineContainer img{
+  width: 100%;
+  max-width: 1800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+/* ////////////////////////////////////CONTATO//////////////////////////////////// */
+.contatoContainer{
+  width: 100%;
+  max-width: 1800px;
+  display: block;
+  margin: auto auto 5% auto;
+}
+
+.contatoContainer form{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contatoTexto h1{
+  color: #707070;
+  font-size: 65px;
+}
+
+.contatoContainer input{
+  margin-top: 20px;
+  height: 45px;
+  font-size: 20px;
+  border: 1px solid #9c9c9c
+}
+
+.contatoContainer input[type=text]{
+  width: 100%;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.contatoContainer input[type=email], input[type=tel]{
+  width: 98%;
+  padding: 20px;
+}
+
+.contatoContainer input[type=tel]{
+  float: right;
+}
+
+.contatoContainer input:focus{
+  border-color: #06EFC8;
+  box-shadow: 0 0 3px #06EFC8;
+  outline: none;
+  outline-offset: 0;
+}
+
+.inputEmail{
+  width: 50%;
+}
+
+.inputTel{
+  width: 50%;
+}
+
+.subDiv{
+  display: flex;
+  justify-content: space-around;
+}
+
+.contatoContainer textarea{
+  resize: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 300px;
+  padding: 20px;
+  font-size: 20px;
+  border: 1px solid #9c9c9c;
+}
+
+.contatoContainer textarea:focus{
+  border-color: #06EFC8;
+  box-shadow: 0 0 3px #06EFC8;
+  outline: none;
+  outline-offset: 0;
+}
+
+.contatoContainer button{
+  float: right;
+  font-size: 18px;
+  width: 250px;
+  height: 50px;
+  border: none;
+  font-weight: bold;
+  color: white;
+  background-color: #06EFC8;
+}
+
+.contatoContainer button:hover{
+  border: 1px solid #fff;
+  background: #09c3a3;
+}
+
+/* ////////////////////////////////////RODAPE//////////////////////////////////// */
+.rodape{
+  justify-content: center;
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  align-items: flex-end;
+  background-image: url(../img/Footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rodapeContainer{
+  font-size: 15px;
+  color: #707070;
+  margin-bottom: 1%;
+}
+
+/* ////////////////////////MEDIA-QUERIES(max-width:925px)//////////////////////// */
+@media (max-width: 925px) {
+
+  /* /////HEADER///// */
+  .cabecalho{
+    background-image: url(../img/Header.png);
+  }
+
+  .cabecalhoOpcoes{
+    flex-direction: column;
+  }
+
+  #xcave{
+    width: 55px;
+    height: 55px;
+    margin-right: 12px;
+  }
+
+  #logo{
+    width: 60px;
+    height: 60px;
+  }
+
+  .cabecalhoOpcoesMenu{
+    flex-flow: row wrap;
+    margin-bottom: 3%;
+    margin-left: 6%;
+    max-width: 300px;
+    line-height: 30px;
+    font-size: 15px;
+  }
+
+  .titulo{
+    margin-bottom: 15%;
+  }
+
+  .titulo h1{
+    font-size: 55px;
+  }
+
+  /* /////SOBRE-PROJETO-TIME///// */
+  .imagemDireitaContainerImagem, .imagemEsquerdaContainerImagem{
+    display: none;
+  }
+
+  .imagemEsquerdaContainer, .imagemDireitaContainer, .imagemEsquerdaContainerTexto, .imagemDireitaContainerTexto{
+    width: 70vw;
+    margin: 2% auto;
+    flex-direction: column;
+  }
+
+  /* /////TEXTOS-H1///// */
+  .imagemEsquerdaContainer h1, .imagemDireitaContainer h1, .contatoTexto h1{
+    font-size: 40px;
+  }
+
+  /* /////TEXTOS-OUTROS///// */
+  .imagemEsquerdaContainerTexto p, .imagemDireitaContainerTexto p, .contatoContainer input, .contatoContainer textarea{
+    font-size: 15px;
+  }
+
+  /* /////CONTATO///// */
+  .contatoContainer{
+    margin: 5% auto;
+  }
+
+  .contatoContainer textarea{
+    height: 200px;
+  }
+
+  .contatoContainer button{
+    font-size: 12px;
+    width: 150px;
+    height: 30px;
+  }
+
+  /* /////RODAPE///// */
+  .rodape{
+    min-width: 300px;
+  }
+
+  .rodapeContainer{
+    font-size: 10px;
+  }
+}
