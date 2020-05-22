@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+  font-family: 'Lato', sans-serif;
+}
+
+body{
+  background: rgba(146, 240, 170, 0.3);
+}
+
+form{
+  margin: 60px 130px;
+}
+
+.form-control.is-invalid {
+  background-image: none;
+}
+
+.form-control.is-valid {
+  background-image: none;
+}
+
+.form-check{
+  margin-top: 20px;
+}

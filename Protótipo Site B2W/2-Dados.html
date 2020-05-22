@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style_Dados.css">
+    <title>Dados</title>
+  </head>
+  <body>
+
+    <form>
+
+      <!-- Campos -->
+
+      <!-- 1ª Linha -->
+      <div class="form-row">
+
+        <!-- Nome Completo -->
+
+        <div class="col-md-5 mb-3">
+          <label for="nome">&nbsp;Nome Completo:</label>
+          <input type="text" class="form-control" id="nome" placeholder="">
+        </div>
+
+        <!-- CPF -->
+
+        <div class="col-md-3 mb-3">
+          <label for="cpf">&nbsp;Digite seu CPF:</label>
+          <input type="text" class="form-control" id="cpf" placeholder="" onkeypress="$(this).mask('000.000.000-00')">
+        </div>
+
+        <!-- PIS -->
+
+        <div class="col-md-3 mb-3">
+          <label for="pis">&nbsp;Digite seu PIS:</label>
+          <input type="text"class="form-control" id="pis" placeholder="" onkeypress="$(this).mask('000.00000.00-0')">
+        </div>
+
+      <!-- Fim 1ª Linha -->
+      </div>
+
+      <!-- 2ª Linha -->
+      <div class="form-row">
+
+        <!-- Sexo -->
+
+        <div class="col-md-2 mb-3">
+          <label for="sexo">&nbsp;Sexo:</label>
+          <select class="form-control" id="sexo">
+            <option value="0" disabled selected>Selecione</option>
+            <option value="1">Masculino</option>
+            <option value="2">Feminino</option>
+            <option value="3">Outro</option>
+          </select>
+        </div>
+
+        <!-- Nacionalidade -->
+
+        <div class="col-md-3 mb-3">
+          <label for="nacionalidade">&nbsp;Nacionalidade:</label>
+          <input type="text" class="form-control" id="nacionalidade" placeholder="País onde nasceu">
+        </div>
+
+        <!-- Estado -->
+
+        <div class="col-md-3 mb-3">
+          <label for="estado">&nbsp;Estado:</label>
+          <input type="text" class="form-control" id="estado" placeholder="Estado onde nasceu">
+        </div>
+
+        <!-- Naturalidade -->
+
+        <div class="col-md-3 mb-3">
+          <label for="naturalidade">&nbsp;Naturalidade:</label>
+          <input type="text" class="form-control" id="naturalidade" placeholder="Cidade onde nasceu">
+        </div>
+
+      <!-- Fim 2º Linha -->
+      </div>
+
+      <!-- 3ª Linha -->
+      <div class="form-row">
+
+        <!-- Data de Nascimento -->
+
+        <div class="col-md-2 mb-3">
+          <label for="data">&nbsp;Data de Nascimento:</label>
+          <input type="text"class="form-control" id="data" placeholder="DD/MM/YYYY" onkeypress="$(this).mask('00/00/0000')">
+        </div>
+
+        <!-- Estado Civil -->
+
+        <div class="col-md-2 mb-3">
+          <label for="civil">&nbsp;Estado Civil:</label>
+          <select class="form-control" id="civil">
+            <option value="0" disabled selected>Selecione</option>
+            <option value="1">Solteiro</option>
+            <option value="2">Casado</option>
+            <option value="3">Separado</option>
+            <option value="4">Divorciado</option>
+            <option value="5">Viúvo</option>
+          </select>
+        </div>
+
+        <!-- Filhos -->
+
+        <div class="col-md-1 mb-3">
+          <label for="filhos">&nbsp;Filhos:</label>
+          <input type="text" class="form-control" id="filhos" placeholder="Nº">
+        </div>
+
+        <!-- Agência -->
+
+        <div class="col-md-2 mb-3">
+          <label for="agencia">&nbsp;Nº da Agência:</label>
+          <input type="text" class="form-control" id="agencia" placeholder="" onkeypress="$(this).mask('0000')">
+        </div>
+
+        <!-- Dígito Agência -->
+
+        <div class="col-md-1 mb-3">
+          <label for="digitoAgencia">&nbsp;Dígito:</label>
+          <input type="text" class="form-control" id="digitoAgencia" placeholder="" onkeypress="$(this).mask('0')">
+        </div>
+
+        <!-- Conta -->
+
+        <div class="col-md-2 mb-3">
+          <label for="conta">&nbsp;Nº da Conta:</label>
+          <input type="text" class="form-control" id="conta" placeholder="" onkeypress="$(this).mask('0000000')">
+        </div>
+
+        <!-- Dígito2 -->
+
+        <div class="col-md-1 mb-3">
+          <label for="digitoConta">&nbsp;Dígito:</label>
+          <input type="text" class="form-control" id="digitoConta" placeholder="" onkeypress="$(this).mask('0')">
+        </div>
+
+      <!-- Fim 3ª Linha -->
+      </div>
+
+      <!-- 4ª Linha -->
+      <div class="form-row">
+
+        <!-- Etnia -->
+
+        <div class="col-md-2 mb-3">
+          <label for="etnia">&nbsp;Etnia:</label>
+          <select class="form-control" id="etnia">
+            <option value="0" disabled selected>Selecione</option>
+            <option value="1">Branco</option>
+            <option value="2">Negro</option>
+            <option value="3">Pardo</option>
+            <option value="4">Indígena</option>
+          </select>
+        </div>
+
+        <!-- Tamanho Camiseta -->
+
+        <div class="col-md-2 mb-3">
+          <label for="camiseta">&nbsp;Tamanho Camiseta:</label>
+          <select class="form-control" id="camiseta">
+            <option value="0" disabled selected>Selecione</option>
+            <option value="1">PP</option>
+            <option value="2">P</option>
+            <option value="3">M</option>
+            <option value="4">G</option>
+            <option value="5">GG</option>
+          </select>
+        </div>
+
+      <!-- Fim 4ª Linha -->
+      </div>
+
+      <!-- Fim Campos -->
+      </div>
+
+      <!-- Parte Inferior -->
+
+      <div class="form-group">
+
+        <!-- Checkbox -->
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="check">
+          <label class="form-check-label" for="check">
+            Declaro que as informações acima prestadas são verdadeiras.
+          </label>
+          <div class="invalid-feedback">
+            Você deve marcar este campo antes de continuar.
+          </div>
+        </div>
+        <!-- Fim do Checkbox -->
+      </div>
+
+      <!-- Botão -->
+
+      <button class="btn btn-primary" type="button" id="botao">Enviar</button>
+    </form>
+
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+  <script src="./js/Dados.js"></script>
+  </body>
+</html>
