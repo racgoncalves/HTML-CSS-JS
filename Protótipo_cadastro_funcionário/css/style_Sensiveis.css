@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+  font-family: 'Lato', sans-serif;
+}
+
+body{
+  background: rgba(146, 240, 170, 0.3);
+}
+
+form{
+  margin: 5% 20% 0 20% ;
+}
+
+.texto{
+  margin: 5% 20% 0 20% ;
+}
+
+.containerCampos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.containerBotao{
+  float: right;
+  margin-bottom: 5%;
+}
+.form-control{
+  padding-right: calc(1.5em + 0.75rem);
+}
+
+.form-control.is-invalid {
+  background-image: none;
+}
+
+.form-control.is-valid {
+  background-image: none;
+}
